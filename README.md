@@ -1,4 +1,4 @@
-# pure-model-context-protocol
+# Pure Storage Model Context Protocol Server
 
 A simple MCP server to interact with Pure storage arrays, retrieves realtime information from a Pure Storage FlashBlade array
 
