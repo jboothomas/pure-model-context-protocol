@@ -22,7 +22,7 @@ Add the relevant entry to the claude_desktop_config.json file
   <summary>Development/Unpublished Servers Configuration</summary>
  
   "mcpServers": {
-    "pureflashblade": {
+    "puremcpserver": {
       "command": "uv",
       "args": [
         "--directory",
