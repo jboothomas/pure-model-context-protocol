@@ -20,19 +20,19 @@ Add the relevant entry to the claude_desktop_config.json file
 
 <details>
   <summary>Development/Unpublished Servers Configuration</summary>
-  ```
+ 
   "mcpServers": {
     "pureflashblade": {
       "command": "uv",
       "args": [
         "--directory",
-        "/Users/jthomas/git/python/pureflashblade",
+        "/path/to/pure-mcp-server",
         "run",
-        "pureflashblade"
+        "pure-mcp-server"
       ]
     }
   }
-  ```
+  
 </details>
 
 
