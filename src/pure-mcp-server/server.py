@@ -106,6 +106,7 @@ async def handle_list_tools() -> list[types.Tool]:
             },
         ),
         types.Tool(
+            # Example of a tool to call a hardcoded restAPI endpoint
             name="get-array-full",
             description="Get array full information, space and 7 days performance",
             inputSchema={
@@ -161,7 +162,8 @@ async def handle_call_tool(name: str, arguments: dict | None) -> list[types.Text
                 isError=True,
                 content=[types.TextContent(type="text", text=f"Error: {str(error)}")]
             )
-
+    
+    # Example of a tool to call a hardcoded restAPI endpoint
     elif name == "get-array-full":
         try:
             arrays_info_response = fb_client.call_endpoint("get_arrays")
